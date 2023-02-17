@@ -2,3 +2,8 @@
 /obj/
 /dep/
 /res/
+
+# SNES
+*.bin
+*.sym
+/snes_src/build/

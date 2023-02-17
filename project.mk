@@ -10,10 +10,10 @@ PADVALUE := 0xFF
 VERSION := 0
 
 # 4-ASCII letter game ID
-GAMEID := BOIL
+GAMEID := SGBT
 
 # Game title, up to 11 ASCII chars
-TITLE := BOILERPLATE
+TITLE := SGB-TESTBED
 
 # New licensee, 2 ASCII chars
 # Homebrew games FTW!
@@ -34,7 +34,7 @@ MBC := 0x00
 SRAMSIZE := 0x00
 
 # ROM name
-ROMNAME := boilerplate
+ROMNAME := sgb_testbed
 ROMEXT  := gb
 
 
@@ -54,7 +54,7 @@ ASFLAGS += -h
 # FIXFLAGS += -C
 
 # Super Game Boy compatible
-# FIXFLAGS += -s
+FIXFLAGS += -s
 
 # Game Boy mode
 # LDFLAGS += -d
